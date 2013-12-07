@@ -1,13 +1,20 @@
 {
 	"manifest_version": 2,
 
-	"name": "One-click Kittens",
-	"description": "Sample from http://developer.chrome.com/extensions/getstarted.html",
+	"name": "Worklogian",
+	"description": "My work log tools",
+
+	"content_scripts": [
+		{
+			"matches": ["https://sites.google.com/site/stabledogpersonal/journal/chromeextensiontoscrapeworklogs/worklog-tables-test"],
+			"js": [ "mycontent.js" ]
+		}
+	]
 
 	"version": "1.0",
 
 	"permissions":[
-		"https://secure.flickr.com/"
+		"https://sites.google.com"
 		],
 
 	"browser_action": {
