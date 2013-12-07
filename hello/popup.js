@@ -27,7 +27,7 @@ var kittenGenerator = {
       'safe_search=1&' +
       'content_type=1&' +
       'sort=interestingness-desc&' +
-      'per_page=20',
+      'per_page=16',
 
   /**
    * Sends an XHR GET request to grab photos of lots and lots of kittens. The
