@@ -9,12 +9,12 @@
 			"matches": ["https://sites.google.com/site/stabledogpersonal/journal/chromeextensiontoscrapeworklogs/worklog-tables-test"],
 			"js": [ "mycontent.js" ]
 		}
-	]
+	],
 
 	"version": "1.0",
 
 	"permissions":[
-		"https://sites.google.com"
+		"https://sites.google.com/*"
 		],
 
 	"browser_action": {
